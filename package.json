@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "name": "frontend-challenge",
+  "version": "1.1.0",
+  "description": "Front-End Technical Challenge.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "prestart": "npm run build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qogita/frontend-challenge.git"
+  },
+  "author": "Qogita",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/qogita/frontend-challenge/issues"
+  },
+  "homepage": "https://github.com/qogita/frontend-challenge#readme",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.7.0",
+    "axios": "^0.19.0",
+    "lodash": "^4.17.21",
+    "next": "^11.0.1",
+    "next-seo": "^4.24.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-stripe-checkout": "^2.6.3",
+    "styled-jsx-plugin-postcss": "^4.0.1"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^10.2.0",
+    "@types/react": "^17.0.5",
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "prettier": "^2.3.0",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^2.1.2",
+    "typescript": "^4.3.5"
+  }
+}
